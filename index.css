@@ -1,0 +1,370 @@
+body {
+    background-color: black;
+    color: white;
+    margin: 0;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+header div h1 {
+    font-size: 20px;
+    color: black;
+}
+
+header nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav a {
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+header nav a:hover {
+    color: dimgray;
+    font-size: 25px;
+    transition: 0.7s;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.flex-card-abme {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    max-width: 660px;
+    padding: 50px;
+    background-color: white;
+    border-radius: 20px;
+    color: black;
+    font-size: 25px;
+}
+
+.aboutMe h2 {
+    text-align: center;
+    margin: 5px auto;
+    font-size: 20px;
+    color: black;
+}
+
+.aboutMe a {
+    color: crimson;
+    text-decoration: none;
+    font-size: 15px;
+    opacity: 0.6;
+}
+
+.aboutMe a:hover {
+    opacity: 1;
+    transition: 0.7s;
+}
+
+.aboutMe img {
+    width: 220px;
+    height: 360px;
+    border-radius: 20px;
+}
+
+.aboutMe img:hover, .aboutMe img:focus, .aboutMe img:active {
+    border: 1px solid gray;
+    transition: 0.7s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+#ab-me {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.hobbies {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    line-height: 35px;
+}
+
+#my-hobbies {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.hobbies h3 {
+    margin: 0 auto;
+}
+
+.hobbies ul li {
+    margin: 0 auto;
+    color: black;
+}
+
+.my-bio {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    border-bottom: 3px solid #ffffffa3;
+    padding-bottom: 50px;
+}
+
+.my-bio p {
+    margin: 0 auto;
+    line-height: 50px;
+    max-width: 660px;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 360px);
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 50px auto;
+    max-width: 1440px;
+}
+
+.gridcard1{
+    background-image: url("./pictures/odesa.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.gridcard1:hover, .aboutMe img:focus, .aboutMe img:active {
+    transition: 0.7s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.gridcard2{
+    background-image: url("./pictures/kiev.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.gridcard2:hover, .aboutMe img:focus, .aboutMe img:active {
+    transition: 0.7s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.gridcard3{
+    background-image: url("./pictures/lviv.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.gridcard3:hover, .aboutMe img:focus, .aboutMe img:active {
+    transition: 0.7s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.gridcard4{
+    background-image: url("./pictures/turkey.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.gridcard4:hover, .aboutMe img:focus, .aboutMe img:active {
+    transition: 0.7s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.gridcard5{
+    background-image: url("./pictures/tivat.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.gridcard5:hover, .aboutMe img:focus, .aboutMe img:active {
+    transition: 0.7s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.gridcard6{
+    background-image: url("./pictures/montenegro.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.gridcard6:hover, .aboutMe img:focus, .aboutMe img:active {
+    transition: 0.7s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.gridcard7{
+    background-image: url("./pictures/montenegro2.jpeg");background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.gridcard7:hover, .aboutMe img:focus, .aboutMe img:active {
+    transition: 0.7s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.gridcard8{
+    background-image: url("./pictures/munich.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.gridcard8:hover, .aboutMe img:focus, .aboutMe img:active {
+    transition: 0.7s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.gridcard9{
+    background-image: url("./pictures/Unitedkingdom.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+.gridcard9:hover, .aboutMe img:focus, .aboutMe img:active {
+    transition: 0.7s;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+
+.contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    line-height: 25px;
+}
+
+.contact-form p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 25px;
+}
+
+.contact-form input {
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.19);
+    border: 1px black solid;
+    padding: 10px;
+}
+
+.contact-form textarea {
+    width: 300px;
+    background-color: rgba(128, 128, 128, 0.19);
+    border: 1px black solid;
+    padding: 10px;
+}
+
+.contact-form .button {
+    width: 150px;
+    background-color: rgba(128, 128, 128, 0.19);
+    color: white;
+    border-radius: 50px;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.contact-form .button:hover {
+    background-color: white;
+    color: black;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 30px;
+    line-height: 25px;
+    margin-bottom: 25px;
+    border-top: 2px solid gray;
+    padding-top: 15px;
+}
+
+table {
+    color: gray;
+    font-size: 15px;
+}
+
+table tr th {
+    width: 320px;
+}
+
+table a {
+    color: gray;
+    font-size: 15px;
+    text-decoration: none;
+}
